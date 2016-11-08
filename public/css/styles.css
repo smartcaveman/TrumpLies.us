@@ -1,0 +1,104 @@
+div{
+}
+body , p, h1, h2, h3, h4 , h5, h6 { font-family: 'Droid Sans', sans-serif; font-weight: bold; }
+
+header {
+  margin:0;
+  /*background: url('../images/trump-lies.header.1086x611.jpg');*/
+}
+
+ul.navbar-nav li{
+}
+#nav-widget{
+
+  background-color:#666;
+  background: url('../images/trump2.svg') black
+;
+  filter: invert(2%);
+  position: absolute;
+  top: 140px;
+}
+#TrumpLies{
+  background-color: #ddd;
+  font-size: 6em;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 180px;
+  background: url('../images/trump2.svg');
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 0;
+  background-position-x: left ;
+  position: absolute;
+  z-index: 1000;
+  top:100px;
+}
+a.block-link, a.block-link:visited{
+  color: black;
+}
+a.block-link, a.block-link:visited, a.block-link:active, a.block-link:hover, a.block-link:hover:visited{
+  text-decoration: none;
+  font-weight:normal;
+  padding: 2px;
+  font-family:"Droid Sans", sans-serif;
+  font-weight: 0.7em;
+  font-size: 0.8em;
+  height: 30px;
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+}
+
+.grid-item {
+   float: left;
+   width: 200px;
+   border: 2px solid hsla(0, 0%, 0%, 0.5);
+ }
+
+.grid-item--width3 { width: 300px; }
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
+.glyphicon-remove{
+  margin: 5px;
+}
+.category , .statement, .falsehood, .analysis { padding: 5px; }
+
+.lie {
+  margin: 5px;
+  background-color: #666;
+
+  padding: 3px;
+}
+h3.grid-item {
+  padding: 14px;
+}
+.lie p.statement {
+
+}
+.category {
+}
+.statement {
+/*  background-color: #DB1C07;*/
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.analysis {
+/*  background-color: #5BFF60; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.falsehood {
+  text-transform: capitalize;
+}
+.fade-right {
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), color-stop(0.75, rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask: url(#fade_right_svg_mask);
+}
+#mask_demo {
+  background: #d0d0d0;
+  height: 100px;
+  width: 500px;
+  padding: 10px;
+}
